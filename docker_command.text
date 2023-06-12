@@ -6,3 +6,6 @@
 => docker image prune
 => docker container prune -a
 => docker container stop container_name
+=> docker exec -it container_id sh
+=> docker logs container_name
+=> docker push image_name
