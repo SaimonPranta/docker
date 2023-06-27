@@ -9,3 +9,5 @@
 => docker exec -it container_id sh
 => docker logs container_name
 => docker push image_name
+=> docker rmi -f image_name
+=> docker rm container_name
